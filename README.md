@@ -44,6 +44,21 @@ releases. When updating to a new version, re-check the fingerprints in:
 > The radio patch is the most version-robust: it flips the availability flag
 > `DashboardRadioConfiguration.a()`, whose class/method names are not obfuscated.
 
+## 🚀 Releases & CI
+
+Everything is automated from the **`master`** branch:
+
+- Use [Conventional Commits](https://www.conventionalcommits.org/): `feat:` → minor, `fix:` / `perf:` → patch, `chore:` / `docs:` → no release.
+- A `feat`/`fix` push to `master` runs [`.github/workflows/release.yml`](.github/workflows/release.yml),
+  which builds the `.mpp`, updates `patches-list.json`, `patches-bundle.json`, `CHANGELOG.md` and the
+  patches list in this README, then publishes a GitHub release with the `.mpp` attached.
+- Commits that don't trigger a release just verify the project compiles.
+- Pull requests and non-`master` branches run [`.github/workflows/build.yml`](.github/workflows/build.yml)
+  to verify the patches build.
+
+The Gradle build resolves the `app.morphe.patches` plugin from the Morphe registry, so CI passes
+`GITHUB_TOKEN` (with `packages: read`) automatically.
+
 ## 🛠️ Building locally
 
 - Run `./gradlew buildAndroid`
