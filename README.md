@@ -16,6 +16,7 @@ Patches are grouped by app under `patches/src/main/kotlin/app/polishapps/patches
 | **Remove Yanosik ads** | Removes banner ads, splash/start adverts and advert-based navigation POIs. | ✅ |
 | **Unlock Yanosik PRO** | Reports an active premium entitlement and unlocks the PRO-only settings (view after launch / "Widok po uruchomieniu", floating icon / "Pływająca ikona"). | ✅ |
 | **Remove Yanosik radio** | Removes the built-in Radio Yanosik from the main screen and the map button. | ✅ |
+| **Bypass Android Auto certificate checks** | Bypasses the Car App Library host certificate validation so Yanosik works on Android Auto. | ✅ |
 
 ### How to use these patches
 
