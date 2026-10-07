@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/RikoDEV/morphed-pl/compare/v1.0.3...v1.1.0) (2026-10-07)
+
+### ✨ New Features
+
+* remove map bottom shelf (search/shortcuts panel) ([916a45e](https://github.com/RikoDEV/morphed-pl/commit/916a45e8bff1fcded8ddb7b79b2f0ec7d7595040))
+
 ## [1.0.3](https://github.com/RikoDEV/morphed-pl/compare/v1.0.2...v1.0.3) (2026-10-07)
 
 ### 🐛 Bug Fixes
