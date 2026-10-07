@@ -19,7 +19,7 @@ Patches are grouped by app under `patches/src/main/kotlin/app/polishapps/patches
 
 ### How to use these patches
 
-Click here to add these patches to Morphe: https://morphe.software/add-source?github=xyz-user/polish-apps-patches
+Click here to add these patches to Morphe: https://morphe.software/add-source?github=RikoDEV/morphed-pl
 
 ## 🩹 Patches list
 
@@ -28,6 +28,8 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 #### A list of your patches will automatically be shown here after your first patches release is created.
 
 &nbsp;
+
+<!-- PATCHES_END -->
 
 ## ⚠️ Version support
 
