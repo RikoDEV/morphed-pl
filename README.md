@@ -1,4 +1,4 @@
-# 🧩 Morphed PL
+# 🧩 Morphe Patches for Polish Apps
 
 Morphe patches for Polish Android apps.
 
@@ -19,7 +19,7 @@ Patches are grouped by app under `patches/src/main/kotlin/app/polishapps/patches
 
 ### How to use these patches
 
-Click here to add these patches to Morphe: https://morphe.software/add-source?github=RikoDEV/morphed-pl
+Click here to add these patches to Morphe: https://morphe.software/add-source?github=xyz-user/polish-apps-patches
 
 ## 🩹 Patches list
 
@@ -33,7 +33,7 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 
 ### Yanosik
 
-Yanosik is heavily obfuscated. The patches currently target **26.9.0 (arm64-v8a, version code 6001512)**
+The patches currently target **26.9.0 (arm64-v8a, version code 6001512)**
 only, because the obfuscated class names they reference (`r5f`, `l9f`, `tmd`, `m8b`, …) change between
 releases. When updating to a new version, re-check the fingerprints in:
 
@@ -67,7 +67,7 @@ java -jar cli.jar patch --patches patches-*.mpp Yanosik_26.9.0.apkm
 
 ## 📜 License
 
-Morphed PL is licensed under the [GNU General Public License v3.0](LICENSE).
+Morphe Patches for Polish Apps are licensed under the [GNU General Public License v3.0](LICENSE).
 
 They are built on the [Morphe patches template](https://github.com/MorpheApp/morphe-patches-template),
 [crimera/piko](https://github.com/crimera/piko) and the [ReVanced](https://github.com/ReVanced) prior work.
