@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/RikoDEV/morphed-pl/compare/v1.1.1...v1.2.0) (2026-10-07)
+
+### ✨ New Features
+
+* bypass Android Auto host certificate validation ([a3f55db](https://github.com/RikoDEV/morphed-pl/commit/a3f55db18d0c27a021f43fc9e3fb3d0341df9775))
+
 ## [1.1.1](https://github.com/RikoDEV/morphed-pl/compare/v1.1.0...v1.1.1) (2026-10-07)
 
 ### 🐛 Bug Fixes

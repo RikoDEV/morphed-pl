@@ -25,9 +25,9 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.1.1](https://github.com/RikoDEV/morphed-pl/releases/tag/v1.1.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.2.0](https://github.com/RikoDEV/morphed-pl/releases/tag/v1.2.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
-<summary>📦 Yanosik&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<summary>📦 Yanosik&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -37,6 +37,7 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
+| [Bypass Android Auto certificate checks](#bypass-android-auto-certificate-checks) | Bypasses the Car App Library host certificate validation so Yanosik works on Android Auto. |  |
 | [Remove Yanosik ads](#remove-yanosik-ads) | Removes banner ads, splash/start adverts and advert-based navigation POIs. |  |
 | [Remove Yanosik radio](#remove-yanosik-radio) | Removes the built-in Radio Yanosik from the main screen and the map button. |  |
 | [Unlock Yanosik PRO](#unlock-yanosik-pro) | Reports an active premium entitlement and unlocks the PRO-only settings (view after launch, floating icon). |  |
