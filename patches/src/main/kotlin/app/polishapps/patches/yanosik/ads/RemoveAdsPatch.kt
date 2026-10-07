@@ -7,7 +7,6 @@ import app.polishapps.patches.shared.methodFingerprint
 import app.polishapps.patches.shared.replaceBody
 
 private const val ENTITLEMENT = "Ld6f;"
-private const val EXTENSION_CLASS = "Lapp/polishapps/extension/yanosik/YanosikPatch;"
 
 private data class PremiumGate(
     val definingClass: String,
@@ -66,8 +65,6 @@ val removeAdsPatch = bytecodePatch(
 ) {
     compatibleWith(COMPATIBILITY_YANOSIK)
 
-    extendWith("extensions/extension.mpe")
-
     execute {
         // Banner service: always take the "adverts disabled" branch.
         methodFingerprint(
@@ -76,8 +73,7 @@ val removeAdsPatch = bytecodePatch(
             returnType = "Z",
         ).method.replaceBody(
             """
-                invoke-static {}, $EXTENSION_CLASS->isEntitlementActive()Z
-                move-result v0
+                const/4 v0, 0x1
                 return v0
             """,
         )
