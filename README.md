@@ -24,10 +24,23 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0](https://github.com/RikoDEV/morphed-pl/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`master`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+<details open>
+<summary>📦 Yanosik&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
 
-#### A list of your patches will automatically be shown here after your first patches release is created.
+**🎯 Supported versions:**
 
-&nbsp;
+| 26.9.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Remove Yanosik ads](#remove-yanosik-ads) | Removes banner ads, splash/start adverts and advert-based navigation POIs. |  |
+| [Remove Yanosik radio](#remove-yanosik-radio) | Removes the built-in Radio Yanosik from the main screen and the map button. |  |
+| [Unlock Yanosik PRO](#unlock-yanosik-pro) | Reports an active premium entitlement and unlocks the PRO-only settings (view after launch, floating icon). |  |
+
+</details>
 
 <!-- PATCHES_END -->
 

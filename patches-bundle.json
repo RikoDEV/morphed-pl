@@ -1,7 +1,7 @@
 {
-  "created_at": "",
-  "description": "",
-  "download_url": "",
+  "created_at": "2026-10-07T19:39:52",
+  "description": "## 1.0.0 (2026-10-07)\n\n### 🐛 Bug Fixes\n\n* add README patch-list markers and correct Morphe source URL ([cfe46d0](https://github.com/RikoDEV/morphed-pl/commit/cfe46d0fa14ffd47be609804f3746158e8c2ae26))\n\n### ✨ New Features\n\n* hide the 'buy PRO' upsell alert in settings ([6639d02](https://github.com/RikoDEV/morphed-pl/commit/6639d027d248c88901eb66bed7daf0958b25a20f))",
+  "download_url": "https://github.com/RikoDEV/morphed-pl/releases/download/v1.0.0/patches-1.0.0.mpp",
   "signature_download_url": "",
-  "version": ""
+  "version": "1.0.0"
 }
