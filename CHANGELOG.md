@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/RikoDEV/morphed-pl/compare/v1.0.1...v1.0.2) (2026-10-07)
+
+### 🐛 Bug Fixes
+
+* seed premium entitlement state so PRO is active immediately ([57aebf8](https://github.com/RikoDEV/morphed-pl/commit/57aebf8c15b783b61e9de60fe92ef6d1bd528716))
+
 ## [1.0.1](https://github.com/RikoDEV/morphed-pl/compare/v1.0.0...v1.0.1) (2026-10-07)
 
 ### 🐛 Bug Fixes
