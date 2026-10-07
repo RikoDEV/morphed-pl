@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/RikoDEV/morphed-pl/compare/v1.1.0...v1.1.1) (2026-10-07)
+
+### 🐛 Bug Fixes
+
+* revert map bottom shelf patch (broke main screen buttons) ([8bf2e7e](https://github.com/RikoDEV/morphed-pl/commit/8bf2e7e9728a5150273d0d44a51e4a293b6ddafa))
+
 ## [1.1.0](https://github.com/RikoDEV/morphed-pl/compare/v1.0.3...v1.1.0) (2026-10-07)
 
 ### ✨ New Features
