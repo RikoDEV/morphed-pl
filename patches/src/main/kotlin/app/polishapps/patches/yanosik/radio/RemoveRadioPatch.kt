@@ -2,23 +2,23 @@ package app.polishapps.patches.yanosik.radio
 
 import app.morphe.patcher.patch.bytecodePatch
 import app.polishapps.patches.shared.Constants.COMPATIBILITY_YANOSIK
+import app.polishapps.patches.shared.forceInstanceOfTrue
 import app.polishapps.patches.shared.methodFingerprint
 import app.polishapps.patches.shared.replaceBody
 
 /**
- * Removes the built-in "Radio Yanosik".
+ * Removes the built-in "Radio Yanosik" from the main screen and the map.
  *
- * `DashboardRadioFeature` is registered in the dashboard pack and its
- * availability (`Feature.d()`) is driven by `DashboardRadioConfiguration.a()`.
- * Every radio entry point resolves the feature with `vq6.a(DashboardRadioFeature)`
- * which filters on `d()`:
+ * Two independent code paths are removed:
  *
- *  - the dashboard/drawer tile (DashboardPackActivity),
- *  - the map radio bar (MainReportActivity adds RadioReportFragment to `radioContainer`),
- *  - the Compose radio (cyg).
+ * 1. The dashboard pack feature. `Feature.d()` availability comes from
+ *    `DashboardRadioConfiguration.a()`, and every entry point resolves the feature with
+ *    `vq6.a(DashboardRadioFeature)` which filters on `d()`, so forcing `a()` to false removes
+ *    the dashboard/drawer tile, the map radio bar (`RadioReportFragment`) and the Compose radio.
  *
- * Forcing `a()` to false therefore removes the radio from the main screen and
- * the map button.
+ * 2. The map navigation button. `uy1.invokeSuspend` builds the `Lwof` ("Radio") navigation model
+ *    unless the nav state is an `Lhng`, so forcing that `instance-of` to true makes it always
+ *    return a null navigation model and the button is never rendered.
  */
 @Suppress("unused")
 val removeRadioPatch = bytecodePatch(
@@ -29,6 +29,7 @@ val removeRadioPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_YANOSIK)
 
     execute {
+        // 1. Disable the dashboard pack radio feature.
         methodFingerprint(
             "Lpl/neptis/libraries/actions/dashboardpack/DashboardRadioConfiguration;",
             "a",
@@ -39,5 +40,13 @@ val removeRadioPatch = bytecodePatch(
                 return p0
             """,
         )
+
+        // 2. Never build the "Radio" entry in the map navigation model.
+        methodFingerprint(
+            "Luy1;",
+            "invokeSuspend",
+            parameters = listOf("Ljava/lang/Object;"),
+            returnType = "Ljava/lang/Object;",
+        ).method.forceInstanceOfTrue("Lhng;")
     }
 }
