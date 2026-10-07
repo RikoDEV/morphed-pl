@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/RikoDEV/morphed-pl/compare/v1.0.0...v1.0.1) (2026-10-07)
+
+### 🐛 Bug Fixes
+
+* avoid IndexOutOfBoundsException when forcing instance-of results ([94723e0](https://github.com/RikoDEV/morphed-pl/commit/94723e01b613737d2584fa0e9cf5e925f926dcc3))
+
 ## 1.0.0 (2026-10-07)
 
 ### 🐛 Bug Fixes
