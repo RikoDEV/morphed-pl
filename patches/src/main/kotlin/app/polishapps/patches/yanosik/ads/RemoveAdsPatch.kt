@@ -135,5 +135,16 @@ val removeAdsPatch = bytecodePatch(
                 returnType = gate.returnType,
             ).method.forceInstanceOfTrue(ENTITLEMENT)
         }
+
+        // Settings: never set up the "buy PRO" upsell alert banner.
+        methodFingerprint(
+            "Lpl/neptis/features/settings/AppPreferenceActivity;",
+            "setupProAlert",
+            returnType = "V",
+        ).method.replaceBody(
+            """
+                return-void
+            """,
+        )
     }
 }
