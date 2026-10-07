@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/RikoDEV/morphed-pl/compare/v1.0.2...v1.0.3) (2026-10-07)
+
+### 🐛 Bug Fixes
+
+* remove radio entry from map navigation view ([d189fd5](https://github.com/RikoDEV/morphed-pl/commit/d189fd5df232ae023fbeb2de61a02e7b43802c7d))
+
 ## [1.0.2](https://github.com/RikoDEV/morphed-pl/compare/v1.0.1...v1.0.2) (2026-10-07)
 
 ### 🐛 Bug Fixes
