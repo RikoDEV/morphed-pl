@@ -24,7 +24,7 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0](https://github.com/RikoDEV/morphed-pl/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`master`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.0.0](https://github.com/RikoDEV/morphed-pl/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
 <summary>📦 Yanosik&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
@@ -61,14 +61,14 @@ releases. When updating to a new version, re-check the fingerprints in:
 
 ## 🚀 Releases & CI
 
-Everything is automated from the **`master`** branch:
+Everything is automated from the **`main`** branch:
 
 - Use [Conventional Commits](https://www.conventionalcommits.org/): `feat:` → minor, `fix:` / `perf:` → patch, `chore:` / `docs:` → no release.
-- A `feat`/`fix` push to `master` runs [`.github/workflows/release.yml`](.github/workflows/release.yml),
+- A `feat`/`fix` push to `main` runs [`.github/workflows/release.yml`](.github/workflows/release.yml),
   which builds the `.mpp`, updates `patches-list.json`, `patches-bundle.json`, `CHANGELOG.md` and the
   patches list in this README, then publishes a GitHub release with the `.mpp` attached.
 - Commits that don't trigger a release just verify the project compiles.
-- Pull requests and non-`master` branches run [`.github/workflows/build.yml`](.github/workflows/build.yml)
+- Pull requests and non-`main` branches run [`.github/workflows/build.yml`](.github/workflows/build.yml)
   to verify the patches build.
 
 The Gradle build resolves the `app.morphe.patches` plugin from the Morphe registry, so CI passes
