@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/RikoDEV/morphed-pl/compare/v1.2.0...v1.2.1) (2026-10-08)
+
+### 🐛 Bug Fixes
+
+* hide map radio button by no-oping the uvg.c composable ([e408e87](https://github.com/RikoDEV/morphed-pl/commit/e408e87e3dea6e5a2809538b63d8197241e852e4))
+
 ## [1.2.0](https://github.com/RikoDEV/morphed-pl/compare/v1.1.1...v1.2.0) (2026-10-07)
 
 ### ✨ New Features
