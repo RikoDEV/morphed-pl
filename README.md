@@ -16,13 +16,9 @@ Patches are grouped by app under `patches/src/main/kotlin/app/polishapps/patches
 | **Remove Yanosik ads** | Removes banner ads, splash/start adverts and advert-based navigation POIs. | ✅ |
 | **Unlock Yanosik PRO** | Reports an active premium entitlement and unlocks the PRO-only settings (view after launch / "Widok po uruchomieniu", floating icon / "Pływająca ikona"). | ✅ |
 | **Remove Yanosik radio** | Removes the built-in Radio Yanosik from the main screen and the map button. | ✅ |
-<<<<<<< HEAD
-| **Bypass Android Auto certificate checks** | Bypasses the Car App Library host certificate validation so Yanosik works on Android Auto. | ✅ |
+| **Bypass Android Auto certificate checks** | Bypasses the Car App Library host certificate validation so Yanosik works on Android Auto. Requires [Android-Auto-XLauncher-Unlocked app (root + lsposed)](https://github.com/Rikj000/Android-Auto-XLauncher-Unlocked), see [#2](https://github.com/RikoDEV/morphed-pl/issues/2) | ✅ |
 | **Block Yanosik telemetry** | Blocks analytics, crash reporting, usage statistics, the notiOne SDK and Wi-Fi/cell tower data collection. Location reporting for POI alerts and traffic keeps working. | ✅ |
 | **Home screen dark mode** | Makes the home screen follow the system light or dark theme. | ✅ |
-=======
-| **Bypass Android Auto certificate checks** | Bypasses the Car App Library host certificate validation so Yanosik works on Android Auto. Requires [Android-Auto-XLauncher-Unlocked app (root + lsposed)](https://github.com/Rikj000/Android-Auto-XLauncher-Unlocked), see [#2](https://github.com/RikoDEV/morphed-pl/issues/2) | ✅ |
->>>>>>> 94f6e070acc7ac22c5f1517c70e36ca92950cc8d
 
 ### How to use these patches
 
