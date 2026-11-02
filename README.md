@@ -17,6 +17,8 @@ Patches are grouped by app under `patches/src/main/kotlin/app/polishapps/patches
 | **Unlock Yanosik PRO** | Reports an active premium entitlement and unlocks the PRO-only settings (view after launch / "Widok po uruchomieniu", floating icon / "Pływająca ikona"). | ✅ |
 | **Remove Yanosik radio** | Removes the built-in Radio Yanosik from the main screen and the map button. | ✅ |
 | **Bypass Android Auto certificate checks** | Bypasses the Car App Library host certificate validation so Yanosik works on Android Auto. | ✅ |
+| **Block Yanosik telemetry** | Blocks analytics, crash reporting, usage statistics, the notiOne SDK and Wi-Fi/cell tower data collection. Location reporting for POI alerts and traffic keeps working. | ✅ |
+| **Home screen dark mode** | Makes the home screen follow the system light or dark theme. | ✅ |
 
 ### How to use these patches
 
@@ -46,20 +48,31 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 
 <!-- PATCHES_END -->
 
-## ⚠️ Version support
+## 🔍 What Yanosik collects
 
-### Yanosik
+### Data collected, and blocked by **Block Yanosik telemetry**
 
-The patches currently target **26.9.0 (arm64-v8a, version code 6001512)**
-only, because the obfuscated class names they reference (`r5f`, `l9f`, `tmd`, `m8b`, …) change between
-releases. When updating to a new version, re-check the fingerprints in:
+| Source | Data |
+| --- | --- |
+| **Yanosik analytics** (`AnalyticsManager`, `AnalyticsService`) | App events from native and Flutter screens, and changes to your settings |
+| **Usage analytics** (`UsageAnalyticsService`) | Usage packages built from app activity, navigation state, GPS status and location |
+| **Wi-Fi and app statistics** (`StatisticScanService`) | Nearby Wi-Fi networks, connected networks and app uninstall events |
+| **Cell tower samples** (`BtsService`) | GSM, LTE, 5G and CDMA cell data, recorded alongside your location |
+| **Insurance analytics** (`KioskAnalyticsService`) | Your steps through the insurance purchase flow, including vehicle and offer data |
+| **Advert statistics** (`AdvertStatisticsManager`) | Advert events with device and location details |
+| **Firebase Analytics and Sessions** (Google) | App events and session starts |
+| **Crashlytics** (Google) | Crash reports, logs, custom keys and your user ID |
+| **proxi.cloud SDK** | Geofence and beacon events, Wi-Fi location and advertising ID handling |
+| **notiOne SDK** | Bluetooth tag scans and location samples, linked to your user ID, with a restart after reboot |
+| **RevenueCat events** | Paywall and feature events |
 
-- `patches/src/main/kotlin/app/polishapps/patches/yanosik/ads/RemoveAdsPatch.kt`
-- `patches/src/main/kotlin/app/polishapps/patches/yanosik/premium/UnlockProPatch.kt`
-- `patches/src/main/kotlin/app/polishapps/patches/yanosik/radio/RemoveRadioPatch.kt`
+### Effect on battery
 
-> The radio patch is the most version-robust: it flips the availability flag
-> `DashboardRadioConfiguration.a()`, whose class/method names are not obfuscated.
+These collectors wake the phone's radios and processor for work that doesn't help with navigation:
+
+- **Scanning:** Bluetooth tag scans and Wi-Fi and cell readings use radios that could otherwise stay idle.
+- **Background work:** timers, batched uploads and SDK restarts after a reboot can run when you aren't using the app.
+- **Mobile data:** frequent small uploads keep the cellular radio active for longer than the transfer itself takes.
 
 ## 🚀 Releases & CI
 
