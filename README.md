@@ -98,7 +98,7 @@ The Gradle build resolves the `app.morphe.patches` plugin from the Morphe regist
 - Patch an app with [Morphe Desktop](https://github.com/MorpheApp/morphe-desktop) or the Morphe CLI:
 
 ```
-java -jar cli.jar patch --patches patches-*.mpp Yanosik_26.9.0.apkm
+java -jar cli.jar patch --patches patches-*.mpp Yanosik_26.10.0.apkm
 ```
 
 > Building requires a GitHub personal access token with `read:packages` for the Morphe registry
