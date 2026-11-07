@@ -14,7 +14,7 @@
 
 > [!WARNING]
 > - **No affiliation.** This is an independent community project. It is not affiliated with, endorsed by any app developer, or the Morphe project.
-> - **Trademarks.** Yanosik, Android Auto and all other product names, logos and brands belong to their respective owners. They are used here only to say which apps the patches work with.
+> - **Trademarks.** Yanosik, Orange, Android Auto and all other product names, logos and brands belong to their respective owners. They are used here only to say which apps the patches work with.
 > - **No app files.** This repository contains only patch code. It **does not** host or distribute any original or modified APKs. You need to get the app yourself from an official source.
 > - **Your responsibility.** Modifying an app may break its terms of service, and some patches, change how paid features are offered. You are responsible for making sure your use follows the app's terms. If you find the app useful, consider supporting its developer.
 > - **Road safety.** Patched apps may behave differently from the original, including alerts and Android Auto behaviour. Don't rely on them alone, follow traffic rules, and don't handle your phone while driving.
@@ -31,6 +31,7 @@
 | App | Package |
 | --- | --- |
 | Yanosik | `pl.neptis.yanosik.mobi.android` |
+| Mój Orange | `pl.orange.mojeorange` |
 
 All patches are enabled by default.
 
@@ -80,6 +81,21 @@ All patches are enabled by default.
 | RevenueCat | Paywall and feature events |
 
 Besides privacy, this saves battery: these collectors wake the Bluetooth, Wi-Fi and cellular radios, run background timers and uploads when you aren't using the app, and keep mobile data active with frequent small transfers.
+
+## 🔍 What Mój Orange collects
+
+**Block telemetry** stops the services below.
+
+| Source | Data |
+| --- | --- |
+| Firebase Analytics | Screen views and app events |
+| Crashlytics and Firebase Sessions | Crash reports, logs, custom keys, your user ID and session starts |
+| Quantum Metric | Session replay: screens, taps and interactions |
+| AppsFlyer | Install attribution, sessions and in-app events |
+| Synerise | Screen views, clicks, app starts and custom events |
+| Sponsored offers | Impressions and clicks of sponsored offers |
+
+Push notifications and in-app content keep working. Sponsored offers are hidden, and AppsFlyer campaign links no longer open their target screen.
 
 ## 🛠️ Development
 
