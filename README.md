@@ -63,56 +63,6 @@ All patches are enabled by default.
 > [!NOTE]
 > **Bypass Android Auto certificate checks** also needs [Android-Auto-XLauncher-Unlocked](https://github.com/Rikj000/Android-Auto-XLauncher-Unlocked) (root + LSPosed). See [#2](https://github.com/RikoDEV/morphed-pl/issues/2).
 
-## 🔍 What Yanosik collects
-
-**Block Yanosik telemetry** stops the collectors below. Location reporting for POI alerts and traffic keeps working.
-
-| Source | Data |
-| --- | --- |
-| Yanosik analytics (`AnalyticsManager`, `AnalyticsService`) | App events from native and Flutter screens, settings changes |
-| Usage analytics (`UsageAnalyticsService`) | App activity, navigation state, GPS status and location |
-| Wi-Fi and app statistics (`StatisticScanService`) | Nearby and connected Wi-Fi networks, app uninstall events |
-| Cell tower samples (`BtsService`) | GSM, LTE, 5G and CDMA cell data, recorded with your location |
-| Insurance analytics (`KioskAnalyticsService`) | Steps through the insurance purchase flow, including vehicle and offer data |
-| Advert statistics (`AdvertStatisticsManager`) | Advert events with device and location details |
-| Firebase Analytics and Sessions | App events and session starts |
-| Crashlytics | Crash reports, logs, custom keys and your user ID |
-| proxi.cloud SDK | Geofence and beacon events, Wi-Fi location, advertising ID |
-| notiOne SDK | Bluetooth tag scans and location samples linked to your user ID, restarted after reboot |
-| RevenueCat | Paywall and feature events |
-
-Besides privacy, this saves battery: these collectors wake the Bluetooth, Wi-Fi and cellular radios, run background timers and uploads when you aren't using the app, and keep mobile data active with frequent small transfers.
-
-## 🔍 What Mój Orange collects
-
-**Block telemetry** stops the services below.
-
-| Source | Data |
-| --- | --- |
-| Firebase Analytics | Screen views and app events |
-| Crashlytics and Firebase Sessions | Crash reports, logs, custom keys, your user ID and session starts |
-| Quantum Metric | Session replay: screens, taps and interactions |
-| AppsFlyer | Install attribution, sessions and in-app events |
-| Synerise | Screen views, clicks, app starts and custom events |
-| Sponsored offers | Impressions and clicks of sponsored offers |
-
-Push notifications and in-app content keep working. Sponsored offers are hidden, and AppsFlyer campaign links no longer open their target screen.
-
-## 🔍 What InPost Mobile collects
-
-**Block telemetry** stops the services below.
-
-| Source | Data |
-| --- | --- |
-| InPost analytics | Screen views, taps and app events |
-| Firebase Analytics, Crashlytics and Performance | App events, user properties, crash reports and performance traces |
-| Microsoft Clarity | Session recording: screens, taps and interactions |
-| Adjust | Install attribution and in-app events |
-| Facebook SDK | Automatic app events and the advertising ID |
-| Synerise | Tracked events linked to your profile |
-
-Push notifications, Facebook login and Synerise content keep working.
-
 ## 🛠️ Development
 
 ### Building
