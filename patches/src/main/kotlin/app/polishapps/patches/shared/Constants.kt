@@ -57,4 +57,14 @@ object Constants {
         appIconColor = 0xFFCD00,
         targets = listOf(AppTarget(version = INPOST_4_23_1, versionCode = 42301000)),
     )
+
+    const val ZABKA_4_50_0 = "4.50.0"
+
+    val COMPATIBILITY_ZABKA = Compatibility(
+        name = "Żappka",
+        packageName = "pl.zabka.apb2c",
+        apkFileType = ApkFileType.APKM,
+        appIconColor = 0x08A848,
+        targets = listOf(AppTarget(version = ZABKA_4_50_0, versionCode = 60310)),
+    )
 }
