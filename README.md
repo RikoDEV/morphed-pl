@@ -14,7 +14,7 @@
 
 > [!WARNING]
 > - **No affiliation.** This is an independent community project. It is not affiliated with, endorsed by any app developer, or the Morphe project.
-> - **Trademarks.** Yanosik, Orange, InPost, Android Auto and all other product names, logos and brands belong to their respective owners. They are used here only to say which apps the patches work with.
+> - **Trademarks.** Yanosik, Orange, InPost, Żabka, Android Auto and all other product names, logos and brands belong to their respective owners. They are used here only to say which apps the patches work with.
 > - **No app files.** This repository contains only patch code. It **does not** host or distribute any original or modified APKs. You need to get the app yourself from an official source.
 > - **Your responsibility.** Modifying an app may break its terms of service, and some patches, change how paid features are offered. You are responsible for making sure your use follows the app's terms. If you find the app useful, consider supporting its developer.
 > - **Road safety.** Patched apps may behave differently from the original, including alerts and Android Auto behaviour. Don't rely on them alone, follow traffic rules, and don't handle your phone while driving.
@@ -33,6 +33,7 @@
 | Yanosik | `pl.neptis.yanosik.mobi.android` |
 | Mój Orange | `pl.orange.mojeorange` |
 | InPost Mobile | `pl.inpost.inmobile` |
+| Żappka | `pl.zabka.apb2c` |
 
 All patches are enabled by default.
 
