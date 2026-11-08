@@ -1,3 +1,9 @@
+## [1.6.0](https://github.com/RikoDEV/morphed-pl/compare/v1.5.0...v1.6.0) (2026-11-08)
+
+### ✨ New Features
+
+* add experimental eduVulcan patches (not tested) ([00a50f3](https://github.com/RikoDEV/morphed-pl/commit/00a50f3bc7bfeb8891eafd86c4eaf7dc86e31156))
+
 ## [1.5.0](https://github.com/RikoDEV/morphed-pl/compare/v1.4.0...v1.5.0) (2026-11-08)
 
 ### ✨ New Features

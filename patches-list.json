@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "patches": [
     {
       "name": "Block Yanosik telemetry",
@@ -94,6 +94,35 @@
                 "ARMEABI_V7A": 87591,
                 "X86_64": 87591,
                 "X86": 87591
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Block telemetry",
+      "description": "Blocks Firebase Analytics, Crashlytics, Performance and Sessions, plus the built-in Mnemos usage tracker. Push notifications and Firebase Remote Config keep working.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "pl.edu.vulcan.hebe.ce",
+          "name": "eduVULCAN",
+          "description": null,
+          "apkFileType": "APKS",
+          "appIconColor": "#0000FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "26.08.00 (G)",
+              "versionCodes": {
+                "ARM64_V8A": 1017
               },
               "isExperimental": false,
               "minSdk": null,
@@ -508,6 +537,35 @@
               "version": "26.10.0",
               "versionCodes": {
                 "ARM64_V8A": 6012223
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock premium",
+      "description": "Reports an active Premium capability on every student account and removes the premium lock overlays. Billing and the store stay available.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "pl.edu.vulcan.hebe.ce",
+          "name": "eduVULCAN",
+          "description": null,
+          "apkFileType": "APKS",
+          "appIconColor": "#0000FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "26.08.00 (G)",
+              "versionCodes": {
+                "ARM64_V8A": 1017
               },
               "isExperimental": false,
               "minSdk": null,
