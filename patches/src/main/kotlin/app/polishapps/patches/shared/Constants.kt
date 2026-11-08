@@ -67,4 +67,19 @@ object Constants {
         appIconColor = 0x08A848,
         targets = listOf(AppTarget(version = ZABKA_4_50_0, versionCode = 60310)),
     )
+
+    const val VULCAN_26_08_00 = "26.08.00 (G)"
+
+    val COMPATIBILITY_VULCAN = Compatibility(
+        name = "eduVULCAN",
+        packageName = "pl.edu.vulcan.hebe.ce",
+        apkFileType = ApkFileType.APKS,
+        appIconColor = 0x0000FF,
+        targets = listOf(
+            AppTarget(
+                version = VULCAN_26_08_00,
+                versionCodes = mapOf(SupportedAbi.ARM64_V8A to 1017),
+            ),
+        ),
+    )
 }
