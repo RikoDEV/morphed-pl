@@ -1,3 +1,9 @@
+## [1.5.0](https://github.com/RikoDEV/morphed-pl/compare/v1.4.0...v1.5.0) (2026-11-08)
+
+### ✨ New Features
+
+* add Żappka patches ([64357b6](https://github.com/RikoDEV/morphed-pl/commit/64357b67c645c9ad909d1d6118db5cf488593b7f))
+
 ## [1.4.0](https://github.com/RikoDEV/morphed-pl/compare/v1.3.1...v1.4.0) (2026-11-07)
 
 ### ✨ New Features

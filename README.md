@@ -38,7 +38,7 @@
 All patches are enabled by default.
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.4.0](https://github.com/RikoDEV/morphed-pl/releases/tag/v1.4.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;13 patches total
+> **[v1.5.0](https://github.com/RikoDEV/morphed-pl/releases/tag/v1.5.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;15 patches total
 <details open>
 <summary>📦 Yanosik&nbsp;&nbsp;•&nbsp;&nbsp;6 patches</summary>
 <br>
@@ -91,6 +91,22 @@ All patches are enabled by default.
 | [Hide notification prompt](#hide-notification-prompt) | Stops the popup asking to turn on notifications. |  |
 | [Hide offer carousels](#hide-offer-carousels) | Removes the offer carousels from the home screen. |  |
 | [Hide stories](#hide-stories) | Removes the Instagram-style stories row at the top of the home screen. |  |
+
+</details>
+
+<details open>
+<summary>📦 Żappka&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 4.50.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Block telemetry](#block-telemetry) | Blocks the Żabka CDP event pipeline (device, root, network and carrier data attached to every event), Sentry, AppsFlyer, Synerise event tracking, Firebase Analytics, Facebook app events and Google datatransport uploads. |  |
+| [Spoof signing certificate](#spoof-signing-certificate) | Reports Żabka's original signing certificate to Firebase, so login works after the app is re-signed by patching. |  |
 
 </details>
 
