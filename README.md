@@ -38,7 +38,7 @@
 All patches are enabled by default.
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.6.0](https://github.com/RikoDEV/morphed-pl/releases/tag/v1.6.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;17 patches total
+> **[v1.6.1](https://github.com/RikoDEV/morphed-pl/releases/tag/v1.6.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;17 patches total
 <details open>
 <summary>📦 Yanosik&nbsp;&nbsp;•&nbsp;&nbsp;6 patches</summary>
 <br>
@@ -56,6 +56,22 @@ All patches are enabled by default.
 | [Remove Yanosik ads](#remove-yanosik-ads) | Removes banner ads, splash/start adverts, voice adverts, advert-based navigation POIs and selects the ad-free map style. |  |
 | [Remove Yanosik radio](#remove-yanosik-radio) | Removes the built-in Radio Yanosik from the main screen and the map button. |  |
 | [Unlock Yanosik PRO](#unlock-yanosik-pro) | Reports an active premium entitlement and unlocks the PRO-only settings (view after launch, floating icon). |  |
+
+</details>
+
+<details open>
+<summary>📦 eduVULCAN&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 26.08.00 (G) |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Block eduVULCAN telemetry](#block-eduvulcan-telemetry) | Blocks Firebase Analytics, Crashlytics, Performance and Sessions, plus the built-in Mnemos usage tracker. Push notifications and Firebase Remote Config keep working. |  |
+| [Unlock premium](#unlock-premium) | Reports an active Premium capability on every student account and removes the premium lock overlays. Billing and the store stay available. |  |
 
 </details>
 
@@ -91,22 +107,6 @@ All patches are enabled by default.
 | [Hide notification prompt](#hide-notification-prompt) | Stops the popup asking to turn on notifications. |  |
 | [Hide offer carousels](#hide-offer-carousels) | Removes the offer carousels from the home screen. |  |
 | [Hide stories](#hide-stories) | Removes the Instagram-style stories row at the top of the home screen. |  |
-
-</details>
-
-<details open>
-<summary>📦 eduVULCAN&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 26.08.00 (G) |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Block telemetry](#block-telemetry) | Blocks Firebase Analytics, Crashlytics, Performance and Sessions, plus the built-in Mnemos usage tracker. Push notifications and Firebase Remote Config keep working. |  |
-| [Unlock premium](#unlock-premium) | Reports an active Premium capability on every student account and removes the premium lock overlays. Billing and the store stay available. |  |
 
 </details>
 

@@ -1,3 +1,9 @@
+## [1.6.1](https://github.com/RikoDEV/morphed-pl/compare/v1.6.0...v1.6.1) (2026-11-08)
+
+### 🐛 Bug Fixes
+
+* reported eduVulcan bugs ([129c422](https://github.com/RikoDEV/morphed-pl/commit/129c422e96c0fbfd7b89c02704314dec911da47c))
+
 ## [1.6.0](https://github.com/RikoDEV/morphed-pl/compare/v1.5.0...v1.6.0) (2026-11-08)
 
 ### ✨ New Features
