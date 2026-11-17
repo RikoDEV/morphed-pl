@@ -35,6 +35,7 @@
 | InPost Mobile | `pl.inpost.inmobile` |
 | Żappka | `pl.zabka.apb2c` |
 | Lidl Plus | `com.lidl.eci.lidlplus` |
+| Meteo ICM | `pl.janpogocki.icm.pogoda` |
 
 All patches are enabled by default.
 
