@@ -40,7 +40,7 @@
 All patches are enabled by default.
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.7.4](https://github.com/RikoDEV/morphed-pl/releases/tag/v1.7.4)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;44 patches total
+> **[v1.7.5](https://github.com/RikoDEV/morphed-pl/releases/tag/v1.7.5)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;44 patches total
 <details open>
 <summary>📦 Lidl Plus&nbsp;&nbsp;•&nbsp;&nbsp;16 patches</summary>
 <br>
@@ -113,8 +113,8 @@ All patches are enabled by default.
 
 **🎯 Supported versions:**
 
-| 4.23.1 |
-| :---: |
+| 4.23.1 | 4.24.0 |
+| :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
