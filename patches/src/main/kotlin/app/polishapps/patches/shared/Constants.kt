@@ -59,13 +59,26 @@ object Constants {
     )
 
     const val ZABKA_4_50_0 = "4.50.0"
+    const val ZABKA_4_51_2 = "4.51.2"
 
     val COMPATIBILITY_ZABKA = Compatibility(
         name = "Żappka",
         packageName = "pl.zabka.apb2c",
         apkFileType = ApkFileType.APKM,
         appIconColor = 0x08A848,
-        targets = listOf(AppTarget(version = ZABKA_4_50_0, versionCode = 60310)),
+        targets = listOf(
+            AppTarget(version = ZABKA_4_50_0, versionCode = 60310),
+            AppTarget(version = ZABKA_4_51_2, versionCode = 60768),
+        ),
+    )
+
+    /** For Żappka patches that pin 4.51.2 home feed names. */
+    val COMPATIBILITY_ZABKA_4_51_2 = Compatibility(
+        name = "Żappka",
+        packageName = "pl.zabka.apb2c",
+        apkFileType = ApkFileType.APKM,
+        appIconColor = 0x08A848,
+        targets = listOf(AppTarget(version = ZABKA_4_51_2, versionCode = 60768)),
     )
 
     const val LIDL_PLUS_17_13_6 = "17.13.6"
