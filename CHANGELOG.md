@@ -4,6 +4,12 @@
 
 * add Żappka 4.51.2 support and home screen patches ([904006b](https://github.com/RikoDEV/morphed-pl/commit/904006b6e666a2fa6b34e049e59ad4a620a01738))
 
+## [1.7.4](https://github.com/RikoDEV/morphed-pl/compare/v1.7.3...v1.7.4) (2026-11-18)
+
+### 🐛 Bug Fixes
+
+* add Żappka 4.51.2 support and home screen patches ([904006b](https://github.com/RikoDEV/morphed-pl/commit/904006b6e666a2fa6b34e049e59ad4a620a01738))
+
 ## [1.7.3](https://github.com/RikoDEV/morphed-pl/compare/v1.7.2...v1.7.3) (2026-11-17)
 
 ### 🐛 Bug Fixes
