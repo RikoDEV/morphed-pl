@@ -41,7 +41,7 @@
 All patches are enabled by default.
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.7.7](https://github.com/RikoDEV/morphed-pl/releases/tag/v1.7.7)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;45 patches total
+> **[v1.8.0](https://github.com/RikoDEV/morphed-pl/releases/tag/v1.8.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;47 patches total
 <details open>
 <summary>📦 Lidl Plus&nbsp;&nbsp;•&nbsp;&nbsp;16 patches</summary>
 <br>
@@ -142,6 +142,22 @@ All patches are enabled by default.
 | [Bypass license check](#bypass-license-check) | Removes the Google Play license check that shows "Get this app from Google Play" and closes the app when it was not installed from the Play Store. |  |
 | [Remove ads](#remove-ads) | Removes the banner ads (WP ads / Google Ad Manager) and the interstitial ads, and stops the ad SDK from starting at launch. |  |
 | [Unlock premium](#unlock-premium) | Injects an active premium entitlement into the RevenueCat response so the app reports premium tier without a subscription. Weather model UM 120h and ad-free mode become available. |  |
+
+</details>
+
+<details open>
+<summary>📦 OLX&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 5.188.3 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Block telemetry](#block-telemetry) | Blocks the Ninja/Hydra event tracker and everything it forwards to (Braze, Firebase, Adjust, Facebook), Braze, New Relic, Gemius audience measurement, ACRA crash reports, Adjust, Firebase Analytics, Crashlytics and Performance. |  |
+| [Hide ads](#hide-ads) | Removes the advertising banners from the home feed, search results, ad pages and job offers, and blocks interstitial ads, in the native and the Flutter screens. |  |
 
 </details>
 

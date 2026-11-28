@@ -1,3 +1,9 @@
+## [1.8.0](https://github.com/RikoDEV/morphed-pl/compare/v1.7.7...v1.8.0) (2026-11-28)
+
+### ✨ New Features
+
+* add OLX patches ([7e590b3](https://github.com/RikoDEV/morphed-pl/commit/7e590b3b2bc39cce071ada33617100cc3c1e47bc))
+
 ## [1.7.7](https://github.com/RikoDEV/morphed-pl/compare/v1.7.6...v1.7.7) (2026-11-26)
 
 ### 🐛 Bug Fixes
