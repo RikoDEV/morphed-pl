@@ -128,6 +128,26 @@ object Constants {
         ),
     )
 
+    const val OLX_5_188_3 = "5.188.3"
+
+    /**
+     * OLX is a native Kotlin app with Flutter screens, distributed by APKMirror as an APKM bundle
+     * (base + arm64 + density splits). The patches anchor on SDK class names that R8 keeps (Baxter,
+     * Ninja, Braze, Gemius, google_mobile_ads), and on one literal URL in `libapp.so`.
+     */
+    val COMPATIBILITY_OLX = Compatibility(
+        name = "OLX",
+        packageName = "pl.tablica",
+        apkFileType = ApkFileType.APKM,
+        appIconColor = 0x23E5DB,
+        targets = listOf(
+            AppTarget(
+                version = OLX_5_188_3,
+                versionCodes = mapOf(SupportedAbi.ARM64_V8A to 8453),
+            ),
+        ),
+    )
+
     const val VULCAN_26_08_00 = "26.08.00 (G)"
 
     val COMPATIBILITY_VULCAN = Compatibility(
